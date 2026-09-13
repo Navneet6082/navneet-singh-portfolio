@@ -13,15 +13,3 @@ Modern, responsive, high-performance portfolio website of **Navneet Singh** (B.T
   - Validated Contact Form with direct email integration
   - Print / PDF Resume layout (`@media print`)
 
-## 🚀 Local Development
-Open `index.html` in your browser or run:
-```bash
-python -m http.server 5173
-```
-Then visit `http://localhost:5173`.
-
-## 🌐 Deploy to Vercel
-Deploy in 1 click or run:
-```bash
-npx vercel
-```
