@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navneet Singh | Full Stack Web Developer & Software Engineer</title>
+  <meta name="description" content="Portfolio of Navneet Singh - B.Tech Computer Science & Engineering student, Full Stack Web Developer, and AI enthusiast with experience in building responsive web applications, SaaS platforms, and intelligent tools.">
+  <meta name="author" content="Navneet Singh">
+  <meta name="keywords" content="Navneet Singh, Web Developer, Portfolio, Software Engineer, Java, JavaScript, Python, Kanpur Institute of Technology, Flikt Technology">
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="Navneet Singh | Portfolio">
+  <meta property="og:description" content="Explore projects, skills, and experience of Navneet Singh - Web Developer and B.Tech CSE student.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon (SVG data URI) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Skip to Main Content (Accessibility) -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Navneet Singh Home">
+        <span class="logo-symbol">&lt;</span>
+        <span class="logo-text">Navneet</span>
+        <span class="logo-dot">.</span>
+        <span class="logo-symbol">/&gt;</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Switch to light mode" title="Toggle Theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Quick View/Download Resume Link -->
+        <a href="Navneet_Singh_Resume.pdf" target="_blank" class="btn btn-outline btn-sm print-btn" title="View / Download Resume (PDF)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+          </svg>
+          <span>Resume CV</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobileMenuToggle" class="mobile-menu-btn" aria-label="Open Navigation Menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Off-Canvas Drawer Navigation -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <span class="logo-text">Navigation</span>
+        <button id="closeDrawerBtn" class="close-drawer-btn" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-footer" style="display: flex; flex-direction: column; gap: 10px;">
+        <a href="Navneet_Singh_Resume.pdf" download="Navneet_Singh_Resume.pdf" target="_blank" class="btn btn-outline btn-full">Download CV (PDF)</a>
+        <a href="mailto:ds2706775@gmail.com" class="btn btn-primary btn-full">Get In Touch</a>
+      </div>
+    </div>
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  </div>
+
+  <!-- Main Content Container -->
+  <main id="main-content">
+﻿    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-pill hero-status-badge">
+            <span class="status-indicator"></span>
+            Available for Internships & Software Roles
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Navneet Singh</span>
+          </h1>
+          <div class="hero-dynamic-subtitle">
+            <span class="static-prefix">Specialized in </span>
+            <span class="typing-text" id="typingText">Web Development & AI Solutions</span>
+          </div>
+          <p class="hero-description">
+            B.Tech Computer Science & Engineering student with hands-on web development experience and a strong foundation in Java, JavaScript (ES6+), and clean code principles. Dedicated to building responsive, scalable applications and intelligent user experiences.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Work</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Let's Connect</span>
+            </a>
+            <a href="Navneet_Singh_Resume.pdf" download="Navneet_Singh_Resume.pdf" target="_blank" class="btn btn-glass" title="Download Navneet Singh's Resume (PDF)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <!-- Hero Quick Social Links -->
+          <div class="hero-social-links">
+            <a href="https://github.com/Navneet6082" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>github.com/Navneet6082</span>
+            </a>
+            <a href="https://www.linkedin.com/in/navneet-singh-cse" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="LinkedIn Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>linkedin.com/in/navneet-singh-cse</span>
+            </a>
+            <button class="social-chip copy-chip" data-copy="ds2706775@gmail.com" title="Click to copy email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>ds2706775@gmail.com</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero Stats Card / Code Visualizer -->
+        <div class="hero-visual">
+          <div class="code-card">
+            <div class="code-card-header">
+              <div class="window-controls">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="file-name">NavneetSingh.java</span>
+              <span class="badge-tag">B.Tech CSE</span>
+            </div>
+            <div class="code-card-body">
+              <pre><code><span class="token-keyword">public class</span> <span class="token-class">SoftwareEngineer</span> {
+  <span class="token-keyword">private final</span> String name = <span class="token-string">"Navneet Singh"</span>;
+  <span class="token-keyword">private final</span> String institution = <span class="token-string">"KIT Kanpur"</span>;
+  <span class="token-keyword">private final int</span> gradYear = <span class="token-number">2027</span>;
+
+  <span class="token-keyword">public void</span> <span class="token-method">buildImpactfulSolutions</span>() {
+    String[] coreStack = {
+      <span class="token-string">"Java"</span>, <span class="token-string">"JavaScript (ES6+)"</span>, 
+      <span class="token-string">"Python"</span>, <span class="token-string">"Modern Web APIs"</span>
+    };
+    <span class="token-comment">// Ready to solve complex problems</span>
+    System.out.println(<span class="token-string">"Clean code & scalable thinking."</span>);
+  }
+}</code></pre>
+            </div>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-stats-row">
+            <div class="stat-card">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Web & AI Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">UNICEF YuWaah Score</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+﻿    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Engineering With Purpose & Precision</h2>
+          <p class="section-subtitle">Bridging algorithmic thinking and modern front-end craftsmanship.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-summary-card">
+            <h3 class="card-heading">Executive Summary</h3>
+            <p>
+              I am a <strong>B.Tech Computer Science & Engineering</strong> student at Kanpur Institute of Technology with hands-on web development experience and a robust foundation in Java and software development fundamentals.
+            </p>
+            <p>
+              My focus lies in building responsive, highly interactive web applications using HTML5, CSS3, and modern JavaScript (ES6+). I have practical experience in direct DOM manipulation, event-driven architectures, performance optimization, accessibility (a11y), and search engine visibility.
+            </p>
+            <p>
+              With strong algorithmic problem-solving habits and a commitment to clean, maintainable code, I enjoy architecting systems ranging from clinical operations software (<strong>India First AI Clinic OS</strong>) to institutional management platforms (<strong>School SaaS</strong>) and intelligent recruitment utilities (<strong>AI Resume Analyzer</strong>).
+            </p>
+            <div class="about-meta-row">
+              <div class="meta-item">
+                <span class="meta-label">Location</span>
+                <span class="meta-value">Kanpur, Uttar Pradesh, India</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Phone</span>
+                <a href="tel:+917991406082" class="meta-value link-highlight">+91 7991406082</a>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Email</span>
+                <a href="mailto:ds2706775@gmail.com" class="meta-value link-highlight">ds2706775@gmail.com</a>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Degree</span>
+                <span class="meta-value">B.Tech in CSE (Expected 2027)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Cards Grid -->
+          <div class="about-highlights-grid">
+            <div class="highlight-box">
+              <div class="highlight-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h4>Frontend Mastery</h4>
+              <p>Responsive design, DOM manipulation, custom CSS animations, accessibility, and cross-browser reliability.</p>
+            </div>
+
+            <div class="highlight-box">
+              <div class="highlight-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <h4>Core Foundations</h4>
+              <p>Strong Java OOP, Multithreading, Exception Handling, Data Structures, and Algorithmic Thinking.</p>
+            </div>
+
+            <div class="highlight-box">
+              <div class="highlight-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+                  <path d="M12 2a10 10 0 0 1 10 10h-10V2z" transform="rotate(90 12 12)"></path>
+                </svg>
+              </div>
+              <h4>AI & Modern Productivity</h4>
+              <p>Certified in Generative AI (TCS iON), Claude & AI Tools (be10x), and Digital AI Productivity (YuWaah × UNICEF).</p>
+            </div>
+
+            <div class="highlight-box">
+              <div class="highlight-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <h4>Industry Experience</h4>
+              <p>Internship at Flikt Technology building real-time computation engines, audio playlist platforms, and interactive media.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">A balanced toolkit encompassing programming languages, front-end architecture, and foundational engineering.</p>
+        </div>
+
+        <!-- Skill Filter Controls -->
+        <div class="filter-tab-bar" role="tablist" aria-label="Skills categories">
+          <button class="filter-tab-btn active" data-skill-filter="all" role="tab" aria-selected="true">All Skills</button>
+          <button class="filter-tab-btn" data-skill-filter="languages" role="tab" aria-selected="false">Languages</button>
+          <button class="filter-tab-btn" data-skill-filter="web" role="tab" aria-selected="false">Web Development</button>
+          <button class="filter-tab-btn" data-skill-filter="backend" role="tab" aria-selected="false">Java & Python</button>
+          <button class="filter-tab-btn" data-skill-filter="tools" role="tab" aria-selected="false">Tools & Practices</button>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Programming Languages -->
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <span class="skill-badge-icon">☕</span>
+              <h3 class="skill-name">Java</h3>
+              <span class="skill-level">Advanced Core</span>
+            </div>
+            <p class="skill-desc">Object-Oriented Programming, Exception Handling, Multithreading, Enums, Algorithmic Solutions.</p>
+            <div class="skill-tags">
+              <span class="tag">OOP</span>
+              <span class="tag">Multithreading</span>
+              <span class="tag">Enums</span>
+              <span class="tag">Robust Logic</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="languages web">
+            <div class="skill-header">
+              <span class="skill-badge-icon">⚡</span>
+              <h3 class="skill-name">JavaScript (ES6+)</h3>
+              <span class="skill-level">Proficient</span>
+            </div>
+            <p class="skill-desc">Modern syntax, Async/Await, Promises, Event Loop, Closures, DOM Manipulation, Modules.</p>
+            <div class="skill-tags">
+              <span class="tag">ES6+</span>
+              <span class="tag">Async/Await</span>
+              <span class="tag">Event Handling</span>
+              <span class="tag">DOM API</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="languages web">
+            <div class="skill-header">
+              <span class="skill-badge-icon">🌐</span>
+              <h3 class="skill-name">HTML5 & Semantic Web</h3>
+              <span class="skill-level">Expert</span>
+            </div>
+            <p class="skill-desc">Semantic structure, modern interactive elements (dialog, details), accessible landmark roles, SEO foundation.</p>
+            <div class="skill-tags">
+              <span class="tag">Semantic HTML</span>
+              <span class="tag">Accessibility</span>
+              <span class="tag">SEO Basics</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="languages web">
+            <div class="skill-header">
+              <span class="skill-badge-icon">🎨</span>
+              <h3 class="skill-name">CSS3 & Animations</h3>
+              <span class="skill-level">Proficient</span>
+            </div>
+            <p class="skill-desc">Flexbox, CSS Grid, Custom Properties, Glassmorphism, Micro-animations, Responsive breakpoints.</p>
+            <div class="skill-tags">
+              <span class="tag">CSS Grid</span>
+              <span class="tag">Flexbox</span>
+              <span class="tag">Animations</span>
+              <span class="tag">Responsive</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="languages backend">
+            <div class="skill-header">
+              <span class="skill-badge-icon">🐍</span>
+              <h3 class="skill-name">Python</h3>
+              <span class="skill-level">Intermediate</span>
+            </div>
+            <p class="skill-desc">NumPy, Pandas, Matplotlib, Data analysis scripts, AI prompting and backend integrations.</p>
+            <div class="skill-tags">
+              <span class="tag">NumPy</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">Scripting</span>
+            </div>
+          </div>
+
+          <!-- Web Development Practices -->
+          <div class="skill-card" data-category="web">
+            <div class="skill-header">
+              <span class="skill-badge-icon">📱</span>
+              <h3 class="skill-name">Responsive Web Design</h3>
+              <span class="skill-level">Core Strength</span>
+            </div>
+            <p class="skill-desc">Mobile-first methodologies, dynamic viewport adaptations, fluid typography, cross-device testing.</p>
+            <div class="skill-tags">
+              <span class="tag">Mobile First</span>
+              <span class="tag">Cross Device</span>
+              <span class="tag">Fluid Layouts</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="web">
+            <div class="skill-header">
+              <span class="skill-badge-icon">🎯</span>
+              <h3 class="skill-name">UI / UX Design</h3>
+              <span class="skill-level">Proficient</span>
+            </div>
+            <p class="skill-desc">User-centered design principles, visual hierarchy, feedback loops, interactive states, and clean typography.</p>
+            <div class="skill-tags">
+              <span class="tag">Visual Hierarchy</span>
+              <span class="tag">Usability</span>
+              <span class="tag">Color Theory</span>
+            </div>
+          </div>
+
+          <!-- Tools & Engineering Practices -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <span class="skill-badge-icon">🐙</span>
+              <h3 class="skill-name">Git & GitHub</h3>
+              <span class="skill-level">Daily Workflow</span>
+            </div>
+            <p class="skill-desc">Version control, branch management, pull requests, collaborative workflows, release tagging.</p>
+            <div class="skill-tags">
+              <span class="tag">Git CLI</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Version Control</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="tools web">
+            <div class="skill-header">
+              <span class="skill-badge-icon">🚀</span>
+              <h3 class="skill-name">Performance Optimization</h3>
+              <span class="skill-level">Practiced</span>
+            </div>
+            <p class="skill-desc">Asset compression, minimizing layout thrashing, DOM optimization, lazy loading, lightweight dependencies.</p>
+            <div class="skill-tags">
+              <span class="tag">Optimization</span>
+              <span class="tag">Speed</span>
+              <span class="tag">SEO Best Practices</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <span class="skill-badge-icon">🔍</span>
+              <h3 class="skill-name">Debugging & Cross-Browser</h3>
+              <span class="skill-level">Proficient</span>
+            </div>
+            <p class="skill-desc">Chrome DevTools, network profiling, breakpoint debugging, cross-browser compatibility checks.</p>
+            <div class="skill-tags">
+              <span class="tag">DevTools</span>
+              <span class="tag">Compatibility</span>
+              <span class="tag">Testing</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="tools backend">
+            <div class="skill-header">
+              <span class="skill-badge-icon">💡</span>
+              <h3 class="skill-name">Algorithmic Thinking</h3>
+              <span class="skill-level">Core Strength</span>
+            </div>
+            <p class="skill-desc">Structured problem decomposition, algorithmic complexity analysis, clean modular code design.</p>
+            <div class="skill-tags">
+              <span class="tag">Problem Solving</span>
+              <span class="tag">Clean Code</span>
+              <span class="tag">Algorithms</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Work History</span>
+          <h2 class="section-title">Industry Experience</h2>
+          <p class="section-subtitle">Real-world professional work delivering production-ready web interfaces and components.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-item">
+            <div class="timeline-badge">
+              <span class="pulse-dot"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div class="company-role-group">
+                  <h3 class="timeline-role">Web Developer Intern</h3>
+                  <div class="timeline-company">FLIKT TECHNOLOGY</div>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-date">December 2025 – January 2026</span>
+                  <span class="badge-pill role-type">Internship</span>
+                </div>
+              </div>
+
+              <p class="timeline-summary">
+                Contributed to building high-performance, cross-device web applications utilizing HTML5, CSS3, and modern JavaScript (ES6+), focusing on performance optimization, usability, and accessible UI interactions.
+              </p>
+
+              <div class="timeline-deliverables">
+                <h4 class="deliverables-title">Key Contributions & Deliverables:</h4>
+                <ul class="deliverables-list">
+                  <li>
+                    <strong>Music Playlist Web App:</strong> Engineered a dynamic song-rendering web application equipped with interactive audio playback controls, queue management, and responsive layouts.
+                  </li>
+                  <li>
+                    <strong>Modern Computation Calculator:</strong> Developed an interactive calculator supporting real-time mathematical evaluations and input validation through event delegation and DOM handling.
+                  </li>
+                  <li>
+                    <strong>Interactive Image Gallery:</strong> Built an engaging media gallery featuring thumbnail previews, smooth modal zoom views, and CSS keyframe animations.
+                  </li>
+                  <li>
+                    <strong>Performance & Quality Assurance:</strong> Profiling and debugging front-end code to eliminate performance bottlenecks, enhance accessibility, and guarantee cross-browser compatibility.
+                  </li>
+                  <li>
+                    <strong>SEO & Standards:</strong> Implemented semantic HTML5 tags and meta optimization strategies to boost maintainability and search visibility.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="timeline-tech-stack">
+                <span class="tech-pill">JavaScript (ES6+)</span>
+                <span class="tech-pill">HTML5 Audio API</span>
+                <span class="tech-pill">CSS3 Keyframes</span>
+                <span class="tech-pill">DOM Manipulation</span>
+                <span class="tech-pill">Responsive Design</span>
+                <span class="tech-pill">SEO & Accessibility</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+﻿    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Portfolio</span>
+          <h2 class="section-title">Projects & Systems Built</h2>
+          <p class="section-subtitle">Real-world applications spanning AI-integrated platforms, SaaS tools, and responsive web utilities.</p>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="project-filters" role="tablist" aria-label="Filter Projects">
+          <button class="project-filter-btn active" data-filter="all">All Projects (6)</button>
+          <button class="project-filter-btn" data-filter="ai-saas">AI & SaaS Solutions</button>
+          <button class="project-filter-btn" data-filter="web-apps">Interactive Web Apps</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Project 1: India First AI Clinic OS -->
+          <article class="project-card featured-card" data-category="ai-saas" data-project-id="clinic-os">
+            <div class="project-card-header">
+              <div class="card-status-row">
+                <span class="featured-badge">⭐ Flagship AI Project</span>
+                <span class="category-tag">Healthcare & AI</span>
+              </div>
+              <h3 class="project-title">India First AI Clinic OS</h3>
+            </div>
+            <p class="project-description">
+              A comprehensive real-world healthcare operating system designed to digitize and streamline daily clinical workflows, doctor consultations, patient records, and operational efficiency.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight-point">✓ Digital clinic workflow automation & queue management</div>
+              <div class="highlight-point">✓ Structured, user-focused doctor and patient dashboard</div>
+              <div class="highlight-point">✓ Scalable software architecture for real healthcare operations</div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">AI Integration</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">SaaS Design</span>
+              <span class="tech-pill">Responsive UI</span>
+              <span class="tech-pill">Workflow Engine</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn btn-outline btn-sm open-modal-btn" data-project="clinic-os">View Project Details</button>
+            </div>
+          </article>
+
+          <!-- Project 2: School SaaS -->
+          <article class="project-card featured-card" data-category="ai-saas" data-project-id="school-saas">
+            <div class="project-card-header">
+              <div class="card-status-row">
+                <span class="featured-badge">🏫 SaaS Platform</span>
+                <span class="category-tag">EdTech & Management</span>
+              </div>
+              <h3 class="project-title">School SaaS</h3>
+            </div>
+            <p class="project-description">
+              A centralized school management SaaS platform built to digitize academic and administrative processes, grading workflows, student attendance, and institutional record-keeping.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight-point">✓ Multi-role administrative and academic dashboard</div>
+              <div class="highlight-point">✓ Highly maintainable, modular software architecture</div>
+              <div class="highlight-point">✓ Intuitive UI engineered for real-world school operations</div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">JavaScript (ES6+)</span>
+              <span class="tech-pill">SaaS Architecture</span>
+              <span class="tech-pill">UI/UX</span>
+              <span class="tech-pill">Data Modeling</span>
+              <span class="tech-pill">CSS Grid</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn btn-outline btn-sm open-modal-btn" data-project="school-saas">View Project Details</button>
+            </div>
+          </article>
+
+          <!-- Project 3: AI Resume Analyzer -->
+          <article class="project-card" data-category="ai-saas" data-project-id="resume-analyzer">
+            <div class="project-card-header">
+              <div class="card-status-row">
+                <span class="featured-badge">🤖 AI Utility</span>
+                <span class="category-tag">HR Tech</span>
+              </div>
+              <h3 class="project-title">AI Resume Analyzer</h3>
+            </div>
+            <p class="project-description">
+              An intelligent recruitment-focused application engineered to evaluate candidate resumes against complex job requirements, identifying skill matches, keyword gaps, and qualification scores.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight-point">✓ Automated requirement-driven qualification evaluation</div>
+              <div class="highlight-point">✓ Keyword density & missing skill gap recommendations</div>
+              <div class="highlight-point">✓ Rapid candidate assessment reporting</div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">NLP Principles</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Interactive Dashboard</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn btn-outline btn-sm open-modal-btn" data-project="resume-analyzer">View Project Details</button>
+            </div>
+          </article>
+
+          <!-- Project 4: Music Playlist Web App -->
+          <article class="project-card" data-category="web-apps" data-project-id="music-player">
+            <div class="project-card-header">
+              <div class="card-status-row">
+                <span class="badge-tag">🎵 Flikt Tech Project</span>
+                <span class="category-tag">Multimedia</span>
+              </div>
+              <h3 class="project-title">Music Playlist Web App</h3>
+            </div>
+            <p class="project-description">
+              A dynamic audio streaming web application featuring responsive track playback, dynamic DOM tracklist rendering, volume/seek control, and an animated audio visualizer experience.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight-point">✓ Real-time playback controls with HTML5 Audio API</div>
+              <div class="highlight-point">✓ Dynamic playlist queue & track duration calculation</div>
+              <div class="highlight-point">✓ Responsive cross-device layout with CSS transitions</div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">HTML5 Audio</span>
+              <span class="tech-pill">JavaScript Events</span>
+              <span class="tech-pill">CSS3 Animations</span>
+              <span class="tech-pill">State Management</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn btn-outline btn-sm open-modal-btn" data-project="music-player">View Project Details</button>
+            </div>
+          </article>
+
+          <!-- Project 5: Modern Computation Calculator -->
+          <article class="project-card" data-category="web-apps" data-project-id="calculator">
+            <div class="project-card-header">
+              <div class="card-status-row">
+                <span class="badge-tag">🧮 Web Tool</span>
+                <span class="category-tag">Algorithms & DOM</span>
+              </div>
+              <h3 class="project-title">Modern Computation Calculator</h3>
+            </div>
+            <p class="project-description">
+              A precision calculator application engineered with real-time arithmetic computation, strict input validation, keyboard shortcut binding, and interactive history logging.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight-point">✓ Event delegation & keyboard accessibility</div>
+              <div class="highlight-point">✓ Strict edge-case handling (division by zero, formatting)</div>
+              <div class="highlight-point">✓ Sleek neo-morphic UI with CSS Grid layout</div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">JavaScript ES6+</span>
+              <span class="tech-pill">Event Handling</span>
+              <span class="tech-pill">CSS Grid</span>
+              <span class="tech-pill">Input Validation</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn btn-outline btn-sm open-modal-btn" data-project="calculator">View Project Details</button>
+            </div>
+          </article>
+
+          <!-- Project 6: Interactive Image Gallery -->
+          <article class="project-card" data-category="web-apps" data-project-id="image-gallery">
+            <div class="project-card-header">
+              <div class="card-status-row">
+                <span class="badge-tag">🖼️ Rich Media</span>
+                <span class="category-tag">UI/UX</span>
+              </div>
+              <h3 class="project-title">Interactive Image Gallery</h3>
+            </div>
+            <p class="project-description">
+              A high-performance media gallery providing thumbnail grid views, category filtering, keyboard-accessible lightbox modal zoom, and hardware-accelerated CSS animations.
+            </p>
+            <div class="project-highlights">
+              <div class="highlight-point">✓ Category filtering & thumbnail hover effects</div>
+              <div class="highlight-point">✓ Lightbox modal with keyboard navigation (ESC, Arrows)</div>
+              <div class="highlight-point">✓ Lazy image loading & performance optimization</div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">HTML5 Semantics</span>
+              <span class="tech-pill">CSS Keyframes</span>
+              <span class="tech-pill">Modal View</span>
+              <span class="tech-pill">Performance</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn btn-outline btn-sm open-modal-btn" data-project="image-gallery">View Project Details</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+﻿    <!-- Education & Academics -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education & Qualifications</h2>
+          <p class="section-subtitle">Consistent academic foundation in Computer Science & Engineering.</p>
+        </div>
+
+        <div class="education-cards-grid">
+          <div class="edu-card active-card">
+            <div class="edu-card-top">
+              <div class="edu-icon">🎓</div>
+              <span class="edu-year">2023 – Expected 2027</span>
+            </div>
+            <h3 class="edu-degree">B.Tech, Computer Science & Engineering</h3>
+            <div class="edu-institution">Kanpur Institute of Technology, Kanpur</div>
+            <p class="edu-desc">
+              Focusing on Data Structures & Algorithms, Object-Oriented Programming with Java, Operating Systems, Database Management Systems, and Web Technologies. Actively participating in software projects and technical workshops.
+            </p>
+            <div class="edu-tags">
+              <span class="tag">B.Tech CSE</span>
+              <span class="tag">KIT Kanpur</span>
+              <span class="tag">In Progress</span>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-card-top">
+              <div class="edu-icon">🏫</div>
+              <span class="edu-year">2022</span>
+            </div>
+            <h3 class="edu-degree">Senior Secondary (Class XII)</h3>
+            <div class="edu-institution">UP Board</div>
+            <p class="edu-desc">
+              Completed Senior Secondary education with rigorous science and mathematics coursework, establishing solid fundamentals in problem-solving and analytical reasoning.
+            </p>
+            <div class="edu-tags">
+              <span class="tag">Class XII</span>
+              <span class="tag">UP Board</span>
+              <span class="tag">Science & Math</span>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-card-top">
+              <div class="edu-icon">📚</div>
+              <span class="edu-year">2020</span>
+            </div>
+            <h3 class="edu-degree">Secondary (Class X)</h3>
+            <div class="edu-institution">UP Board</div>
+            <p class="edu-desc">
+              Graduated Secondary education with high marks across general science, mathematics, and fundamentals.
+            </p>
+            <div class="edu-tags">
+              <span class="tag">Class X</span>
+              <span class="tag">UP Board</span>
+              <span class="tag">Foundation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section certs-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Continuous Learning</span>
+          <h2 class="section-title">Certifications & Accreditations</h2>
+          <p class="section-subtitle">Industry-recognized credentials in Artificial Intelligence, Full Stack Web Development, and Digital Productivity.</p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card highlight-cert">
+            <div class="cert-badge-row">
+              <span class="cert-score-pill">⭐ 100% Score</span>
+              <span class="cert-date">September 2026</span>
+            </div>
+            <h3 class="cert-title">Digital Productivity with AI</h3>
+            <div class="cert-issuer">YuWaah × UNICEF</div>
+            <p class="cert-description">
+              Achieved a perfect score (100%) in implementing modern Artificial Intelligence workflows, cognitive productivity frameworks, and automated tooling for digital problem solving.
+            </p>
+            <div class="cert-footer">
+              <span class="cert-verification">Verified Credential</span>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card">
+            <div class="cert-badge-row">
+              <span class="cert-type-pill">AI & LLMs</span>
+              <span class="cert-date">September 2026</span>
+            </div>
+            <h3 class="cert-title">AI Tools & Claude Workshop</h3>
+            <div class="cert-issuer">be10x</div>
+            <p class="cert-description">
+              Hands-on intensive workshop mastering prompt engineering, agentic AI workflows, and advanced Claude generative AI integration for code acceleration and developer productivity.
+            </p>
+            <div class="cert-footer">
+              <span class="cert-verification">Executive Training</span>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card">
+            <div class="cert-badge-row">
+              <span class="cert-type-pill">Industry Training</span>
+              <span class="cert-date">Dec 2025 – Jan 2026</span>
+            </div>
+            <h3 class="cert-title">Full Stack Development Training</h3>
+            <div class="cert-issuer">Flikt Technology Web Solutions</div>
+            <p class="cert-description">
+              Comprehensive practical training program covering end-to-end web development, responsive user interfaces, DOM architecture, performance optimization, and industry coding standards.
+            </p>
+            <div class="cert-footer">
+              <span class="cert-verification">Industrial Immersion</span>
+            </div>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card">
+            <div class="cert-badge-row">
+              <span class="cert-type-pill">Corporate Cert</span>
+              <span class="cert-date">July – August 2026</span>
+            </div>
+            <h3 class="cert-title">Generative AI Essentials</h3>
+            <div class="cert-issuer">TCS iON Career Edge — Tata Consultancy Services</div>
+            <p class="cert-description">
+              In-depth curriculum covering generative models, ethical AI considerations, business automation use cases, and enterprise application of foundational models.
+            </p>
+            <div class="cert-footer">
+              <span class="cert-verification">TCS iON Accredited</span>
+            </div>
+          </div>
+
+          <!-- Cert 5 -->
+          <div class="cert-card">
+            <div class="cert-badge-row">
+              <span class="cert-type-pill">National Initiative</span>
+              <span class="cert-date">September 2026</span>
+            </div>
+            <h3 class="cert-title">Viksit Bharat Young Leaders Dialogue (VBYLD)</h3>
+            <div class="cert-issuer">Ministry of Youth Affairs & Sports, Govt. of India</div>
+            <p class="cert-description">
+              National youth leadership recognition through the Government of India's online evaluation, emphasizing visionary leadership, digital governance, and nation building.
+            </p>
+            <div class="cert-footer">
+              <span class="cert-verification">National Level Recognition</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Connect Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Build Something Great</h2>
+          <p class="section-subtitle">Open for developer internships, software engineering roles, and collaborative projects.</p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Contact Info Cards -->
+          <div class="contact-info-col">
+            <div class="info-card">
+              <div class="info-card-header">
+                <div class="info-icon">📧</div>
+                <div>
+                  <h4 class="info-title">Email Address</h4>
+                  <p class="info-sub">Direct response within 24 hours</p>
+                </div>
+              </div>
+              <div class="copy-field-wrap">
+                <span class="copy-text-display">ds2706775@gmail.com</span>
+                <button class="btn btn-sm btn-glass copy-btn" data-copy="ds2706775@gmail.com" title="Copy Email">
+                  Copy
+                </button>
+              </div>
+              <a href="mailto:ds2706775@gmail.com" class="direct-link">Send email directly &rarr;</a>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-header">
+                <div class="info-icon">📱</div>
+                <div>
+                  <h4 class="info-title">Phone / WhatsApp</h4>
+                  <p class="info-sub">Available Mon - Sat</p>
+                </div>
+              </div>
+              <div class="copy-field-wrap">
+                <span class="copy-text-display">+91-7991406082</span>
+                <button class="btn btn-sm btn-glass copy-btn" data-copy="+917991406082" title="Copy Phone Number">
+                  Copy
+                </button>
+              </div>
+              <a href="tel:+917991406082" class="direct-link">Call directly &rarr;</a>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-header">
+                <div class="info-icon">🔗</div>
+                <div>
+                  <h4 class="info-title">Professional Profiles</h4>
+                  <p class="info-sub">Connect and explore repositories</p>
+                </div>
+              </div>
+              <div class="profile-links-row">
+                <a href="https://www.linkedin.com/in/navneet-singh-cse" target="_blank" rel="noopener noreferrer" class="profile-badge-btn linkedin">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                  LinkedIn
+                </a>
+                <a href="https://github.com/Navneet6082" target="_blank" rel="noopener noreferrer" class="profile-badge-btn github">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-col">
+            <div class="form-card">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-desc">Have a role, question, or project inquiry? Drop a message below.</p>
+              
+              <form id="contactForm" class="portfolio-form" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="senderName" class="form-label">Your Name</label>
+                    <input type="text" id="senderName" name="name" class="form-input" placeholder="e.g. Alex Morgan" required>
+                    <span class="field-error" id="nameError"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="senderEmail" class="form-label">Your Email</label>
+                    <input type="email" id="senderEmail" name="email" class="form-input" placeholder="alex@company.com" required>
+                    <span class="field-error" id="emailError"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="messageSubject" class="form-label">Subject</label>
+                  <input type="text" id="messageSubject" name="subject" class="form-input" placeholder="Internship Opportunity / Project Inquiry" required>
+                  <span class="field-error" id="subjectError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="messageBody" class="form-label">Message</label>
+                  <textarea id="messageBody" name="message" class="form-textarea" rows="4" placeholder="Hi Navneet, I saw your portfolio and would like to connect regarding..." required></textarea>
+                  <span class="field-error" id="bodyError"></span>
+                </div>
+
+                <div class="form-action-group">
+                  <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                    <span>Send Message</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="22" y1="2" x2="11" y2="13"></line>
+                      <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                  </button>
+                  <div class="form-status-msg" id="formStatus"></div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-symbol">&lt;</span>
+          <span class="logo-text">Navneet Singh</span>
+          <span class="logo-symbol">/&gt;</span>
+        </a>
+        <p class="footer-copy">
+          Designed and built with modern semantic HTML5, CSS3 & JavaScript. Clean architecture, high performance, and accessibility first.
+        </p>
+      </div>
+
+      <div class="footer-links-group">
+        <h5 class="footer-title">Navigation</h5>
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact-group">
+        <h5 class="footer-title">Connect</h5>
+        <ul class="footer-nav">
+          <li><a href="https://github.com/Navneet6082" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/navneet-singh-cse" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="mailto:ds2706775@gmail.com">ds2706775@gmail.com</a></li>
+          <li><a href="tel:+917991406082">+91 7991406082</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; <span id="currentYear"></span> Navneet Singh. All rights reserved.</p>
+        <p class="location-badge">📍 Kanpur, India • Open to Worldwide Opportunities</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Detail Modal Dialog (Native Accessible HTML5 Dialog) -->
+  <dialog id="projectModal" class="project-modal" aria-labelledby="modalTitle">
+    <div class="modal-content-wrapper">
+      <div class="modal-header">
+        <div class="modal-tag-group">
+          <span id="modalCategory" class="category-tag">Category</span>
+          <span id="modalBadge" class="featured-badge">Badge</span>
+        </div>
+        <button id="closeModalBtn" class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <h2 id="modalTitle" class="modal-project-title">Project Title</h2>
+        <p id="modalDescription" class="modal-long-desc">Detailed explanation of the project.</p>
+        
+        <div class="modal-section">
+          <h4 class="modal-heading">Key Engineering Highlights:</h4>
+          <ul id="modalHighlights" class="modal-list"></ul>
+        </div>
+
+        <div class="modal-section">
+          <h4 class="modal-heading">Technologies & Methodologies:</h4>
+          <div id="modalTechPills" class="project-tech-pills"></div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="modalActionClose" class="btn btn-secondary">Close</button>
+        <a id="modalGitHubLink" href="https://github.com/Navneet6082" target="_blank" rel="noopener" class="btn btn-primary">
+          <span>View on GitHub</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Interactive Toast Notification -->
+  <div id="toastNotification" class="toast-notification" role="status" aria-live="polite">
+    <div class="toast-icon">✓</div>
+    <span id="toastMessage" class="toast-text">Copied to clipboard!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
