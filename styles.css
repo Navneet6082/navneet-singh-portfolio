@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    Design Tokens & CSS Variables
    ========================================================================== */
 :root {
@@ -1445,14 +1445,41 @@ code, pre {
 }
 
 .cert-footer {
-  padding-top: 12px;
+  padding-top: 14px;
   border-top: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .cert-verification {
   font-size: 0.78rem;
   color: var(--text-muted);
   font-weight: 600;
+}
+
+.cert-verify-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.cert-verify-link:hover {
+  color: var(--accent-secondary);
+  transform: translateX(2px);
+}
+
+.cert-id-tag {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--text-muted);
 }
 
 /* ==========================================================================
